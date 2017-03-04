@@ -24,7 +24,9 @@ protected $listen = [
 class Hello
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
+    
     public $world; //ÅäÖÃeventÊôÐÔ
+    
     public function __construct($args)
     {
         $this->world = $args;
@@ -42,6 +44,7 @@ class HelloListener
     {
     
     }
+    
     public function handle(Hello $event) //¼àÌýÆ÷
     {
         echo "hello " . $event->world;
@@ -50,7 +53,7 @@ class HelloListener
 
 ---
 
-##use in controller or any where
+##Use in controller or any where
 
 ```php
 use App\Events\Hello;
