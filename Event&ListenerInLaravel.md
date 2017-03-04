@@ -10,15 +10,15 @@ protected $listen = [
     ],
 ];
 ```
----
+
 
 ##artisanÃüÁîÉú³ÉEventºÍListener
 
 ```sh
-#php artisan event:generate
+php artisan event:generate
 ```
 
----
+
 
 ##Event
 
@@ -34,8 +34,9 @@ class Hello
     {
         $this->world = $args;
     }
+...
 ```
----
+
 
 ##Listener
 
@@ -52,9 +53,10 @@ class HelloListener
     {
         echo "hello " . $event->world;
     }
+...
 ```
 
----
+
 
 ##Use in controller or any where
 
