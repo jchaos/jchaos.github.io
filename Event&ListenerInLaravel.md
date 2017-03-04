@@ -14,7 +14,7 @@ protected $listen = [
 
 ##artisanÃüÁîÉú³ÉEventºÍListener
 
-```sh
+```shell
 php artisan event:generate
 ```
 
