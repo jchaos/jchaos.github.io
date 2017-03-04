@@ -1,7 +1,6 @@
 ##事件监听
----
 
-* 事件和监听器注册
+#事件和监听器注册
 
 ```php
 // file: app/Providers/EventServiceProvider.php
@@ -18,7 +17,7 @@ protected $listen = [
 
 ---
 
-* Event类
+#Event
 
 ```php
 // file app/Events/Hello.php
@@ -33,7 +32,7 @@ class Hello
 ```
 ---
 
-* listener
+#Listener
 
 ```php
 // file: app/Listeners/HelloListener.php
@@ -51,7 +50,7 @@ class HelloListener
 
 ---
 
-* use in controller or any where
+#use in controller or any where
 
 ```php
 use App\Events\Hello;
