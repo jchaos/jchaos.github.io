@@ -36,7 +36,7 @@ class Hello
 * listener
 
 ```php
-// file: app/Listeners/HelloListener
+// file: app/Listeners/HelloListener.php
 class HelloListener
 {
     public function __construct()
@@ -45,7 +45,7 @@ class HelloListener
     }
     public function handle(Hello $event) //¼àÌýÆ÷
     {
-        echo " hello " . $event->world;
+        echo "hello " . $event->world;
     }
 ```
 
