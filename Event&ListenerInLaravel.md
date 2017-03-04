@@ -12,8 +12,11 @@ protected $listen = [
 ```
 ---
 
-* artisan命令生成Event和Listener: php artisan event:generate
+##artisan命令生成Event和Listener
 
+```sh
+#php artisan event:generate
+```
 
 ---
 
